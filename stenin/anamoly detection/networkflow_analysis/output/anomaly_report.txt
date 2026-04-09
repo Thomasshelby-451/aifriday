@@ -1,0 +1,23 @@
+Networkflow Analysis - Anomaly Report
+Model: Z-score + linear regression (unsupervised)
+LLM model requested: llama3.2:latest
+
+Total rows scored: 200
+Predicted anomalies: 21
+
+Scoring summary:
+- anomaly_rate: 0.1050
+- avg_anomaly_score: 1.4613
+- avg_anomaly_probability: 0.3000
+
+Predicted anomalies by device:
+- Switch-6: 3
+- Switch-3: 3
+- Switch-10: 2
+- Switch-1: 2
+- Switch-4: 2
+- Switch-2: 2
+- Switch-5: 2
+- Switch-7: 2
+- Switch-9: 2
+- Switch-8: 1
