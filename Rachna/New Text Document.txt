@@ -1,0 +1,13 @@
+Y/Hackathon/Bangalore/Anchor/LAB 10-04-2026/Team15
+
+
+
+sk-7mnBOjys5IsMNfvbA2FVwg
+
+Powershell --Get-ExecutionPolicy -List
+Powershell --Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+.\.venv\Scripts\Activate.ps1
+
+
+Alternative (No PowerShell Changes)
