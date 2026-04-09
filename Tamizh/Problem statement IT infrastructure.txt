@@ -1,0 +1,16 @@
+Problem statement :IT infrastructure teams receives alerts from monitoring tools that needs to be converted into incident tickets with details description .An AI agent can automate ticket creation and enrich description using generative AI without training.
+
+steps:
+
+input raw alert data from monitoring system,
+AI agent generates detailed incident description and cagegorizes severity
+create formatted incident ticketes
+
+
+Data requirement:
+
+sample alert logs, incident ticket templates. 
+
+expected output:
+
+incident ticket with detailed description and severit levels in text or json
