@@ -1,0 +1,11 @@
+DeviceID,Type,Model,OSVersion,ProvisioningStatus,VLANConfig,PortSecurity,STPEnabled,ACLsApplied,Logging,RoutingProtocols,ProtocolAuthEnabled,EncryptionEnabled,DriftEvents,ComplianceStatus,Notes
+D2,Switch,SX200,v9.5,Failure,false,true,true,false,true,,, ,3,Non-Compliant,OS below baseline VLAN mismatch ACL missing
+D6,Switch,SX300,v10.2,Success,true,true,true,true,true,,, ,0,Compliant,Meets all baseline requirements
+D10,Switch,SX300,v8.9,Success,true,true,true,true,true,,, ,0,Compliant,Meets all baseline requirements
+D1,Router,RX100,v12.1,Success,,,true,true,OSPF,true,true,0,Compliant,Routing protocol authenticated encryption enabled
+D5,Router,RX100,v12.3,Success,,,true,true,OSPF,true,true,0,Compliant,Routing protocol authenticated encryption enabled
+D9,Router,RX200,v11.5,Failure,,,false,false,BGP,false,false,2,Non-Compliant,Protocol not authenticated encryption disabled ACL missing
+D3,Firewall,FW300,v5.2,Failure,,,false,false,,,false,false,1,Non-Compliant,OS below baseline ACL missing
+D7,Firewall,FW300,v5.5,Failure,,,false,false,,,false,false,1,Non-Compliant,OS below baseline ACL missing
+D4,AccessPoint,AP400,v3.1,Success,,,true,true,,,true,true,0,Compliant,Meets baseline requirements
+D8,AccessPoint,AP400,v2.9,Failure,,,false,false,,,false,false,2,Non-Compliant,OS below baseline drift detected

@@ -1,0 +1,11 @@
+Device_ID,Device_Name,IP_Address,Type,Model,Location,OS_Version,Provision_Status,Provision_Time(min),Drift_Event,Compliance
+DEV-1,Device-4832,192.168.10.45,Router,RX100,Chennai,v12.1,Success,12,0,Compliant
+DEV-2,Device-1293,192.168.11.22,Switch,SX200,Bangalore,v9.5,Failure,25,2,Non-Compliant
+DEV-3,Device-8821,192.168.12.10,Firewall,FW300,Mumbai,v5.2,Success,15,1,Non-Compliant
+DEV-4,Device-7731,192.168.13.90,Access Point,AP400,Delhi,v3.1,Success,10,0,Compliant
+DEV-5,Device-5521,192.168.14.77,Router,RX200,Hyderabad,v12.3,Success,14,0,Compliant
+DEV-6,Device-3312,192.168.15.33,Switch,SX300,Chennai,v8.9,Failure,30,3,Non-Compliant
+DEV-7,Device-6678,192.168.16.44,Firewall,FW300,Mumbai,v5.5,Success,18,1,Non-Compliant
+DEV-8,Device-9981,192.168.17.55,Access Point,AP400,Bangalore,v2.9,Failure,35,2,Non-Compliant
+DEV-9,Device-1456,192.168.18.66,Router,RX100,Delhi,v12.0,Success,13,0,Compliant
+DEV-10,Device-7788,192.168.19.77,Switch,SX300,Chennai,v9.0,Success,11,0,Compliant

@@ -1,0 +1,33 @@
+.card {
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    color: white;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.card.red {
+    background: linear-gradient(135deg, #7f1d1d, #991b1b);
+}
+
+.card.blue {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+}
+
+.card.green {
+    background: linear-gradient(135deg, #065f46, #10b981);
+
+
+}
+
+.card {
+    padding: 16px;
+    border-radius: 12px;
+    background: #111827;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.card.red { background: #7f1d1d; }
+.card.blue { background: #1e3a8a; }
+.card.green { background: #065f46; }
